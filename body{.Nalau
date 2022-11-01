@@ -1,4 +1,4 @@
-body{
+body {
     
 }
 
@@ -6,20 +6,25 @@ body{
     width:100%;
 }
 
-.principal {
-    background: #CCCCCC
+.principal{
+    background: #CCCCCC;
+    padding: 30px;
 }
 
-h1{
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titilo-centralizado {
     text-align: center
 }
 
-P {
+p {
     text-align: center;
 }
 
 #missao {
-    font-size: 20px;
+    font-size: 20px
 }
 
 em strong {
@@ -30,10 +35,18 @@ em strong {
     font-style: italic
 }
 
-.benefícios {
+.beneficios {
     background: #FFFFFF;
+    padding: 20px;
 }
 
-h2 {
-   text-align: center; 
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagembeneficios {
+    width: 50%;
 }
